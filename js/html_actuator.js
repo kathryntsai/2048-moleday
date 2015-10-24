@@ -106,25 +106,25 @@ HTMLActuator.prototype.addTile = function (tile) {
   }*/
 
   if (tile.value == 2){
-    inner.textContent = "6";
+    inner.textContent = "6.";
   } else if (tile.value == 4){
-    inner.textContent = ".";
-  } else if (tile.value == 8){
     inner.textContent = "0";
+  } else if (tile.value == 8){
+    inner.textContent = "2";
   } else if (tile.value == 16){
-    inner.textContent = "2";
-  } else if (tile.value == 32){
     inner.textContent = "2(2)";
+  } else if (tile.value == 32){
+    inner.textContent = "1";
   } else if (tile.value == 64){
-    inner.textContent = "1";
-  } else if (tile.value == 128){
     inner.textContent = "4";
-  } else if (tile.value == 256){
+  } else if (tile.value == 128){
     inner.textContent = "2";
-  }else if (tile.value == 512){
+  } else if (tile.value == 256){
     inner.textContent = "1";
+  }else if (tile.value == 512){
+    inner.textContent = "2";
   }else if (tile.value == 1024){
-    inner.textContent = "3"; //29
+    inner.textContent = "9";
   }else if (tile.value == 2048){
     inner.textContent = "E23";
   }
